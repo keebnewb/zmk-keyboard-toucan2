@@ -75,7 +75,7 @@
         };
 
         kp_divide {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&kp KP_DIVIDE>;
             key-positions = <30 31>;
             layers = <3>;
         };
