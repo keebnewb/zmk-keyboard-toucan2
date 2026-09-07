@@ -18,6 +18,31 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <16 15 14>;
+        };
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 14>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
