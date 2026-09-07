@@ -127,6 +127,12 @@
             key-positions = <17 16>;
             layers = <0>;
         };
+
+        fwd_slash_pipe {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <34 33>;
+            layers = <2>;
+        };
     };
 
     macros {
