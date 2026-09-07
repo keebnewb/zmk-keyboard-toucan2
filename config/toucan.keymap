@@ -39,6 +39,11 @@
             bindings = <&kp SQT>;
             key-positions = <22 21>;
         };
+
+        capture_window {
+            bindings = <&kp LA(PSCRN)>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
@@ -54,28 +59,28 @@
         compatible = "zmk,keymap";
 
         base {
-            display-name = "BASE";
+            display-name = "base";
             bindings = <
 &none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 ENTER  &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
-        nav {
-            display-name = "NAV";
+        down {
+            display-name = "down";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &none  &none  &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &SQL_IN  &none  &none  &none  &none  &none  &kp RS(MINUS)  &kp RS(EQUAL)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &none  &none  &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
-        sym {
-            display-name = "SYM";
+        up {
+            display-name = "up";
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &trans  &none  &none  &none  &none  &none  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
         num {
-            display-name = "NUM";
+            display-name = "num";
             bindings = <
 &none  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &none  &none  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans  &trans  &trans  &trans  &trans  &none  &kp LGUI  &mo NAV  &kp SPACE  &kp RET  &mo 2  &kp RALT
             >;
