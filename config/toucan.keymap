@@ -34,7 +34,7 @@
 
         tilde {
             bindings = <&kp GRAVE>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
