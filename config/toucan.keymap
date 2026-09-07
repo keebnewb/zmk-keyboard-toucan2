@@ -131,7 +131,7 @@
         fwd_slash_pipe {
             bindings = <&kp BACKSLASH>;
             key-positions = <34 33>;
-            layers = <2>;
+            layers = <0>;
         };
     };
 
