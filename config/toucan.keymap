@@ -97,6 +97,12 @@
             key-positions = <15 14>;
             layers = <1>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <15 16>;
+            layers = <1>;
+        };
     };
 
     macros {
