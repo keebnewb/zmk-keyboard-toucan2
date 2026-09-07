@@ -44,7 +44,7 @@
             layers = <0>;
         };
 
-        capture_window {
+        capture_window_win {
             bindings = <&kp LA(PSCRN)>;
             key-positions = <18 19>;
             layers = <0>;
@@ -120,6 +120,12 @@
             bindings = <&kp SLCK>;
             key-positions = <6 7 8>;
             layers = <3>;
+        };
+
+        screen_shot_mac {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <17 16>;
+            layers = <0>;
         };
     };
 
