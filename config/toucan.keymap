@@ -169,7 +169,7 @@
         base {
             display-name = "base";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 ENTER  &kp SPACE  &mo 2  &kp RALT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt RIGHT_SHIFT J  &mt LEFT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 ENTER  &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -183,21 +183,21 @@
         up {
             display-name = "up";
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &none  &mt RSHIFT MINUS  &mt RIGHT_CONTROL EQUAL  &mt RIGHT_ALT LEFT_BRACKET  &mt RIGHT_GUI RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &kp END  &none  &none  &none  &none  &none  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &none  &mt RSHIFT MINUS  &mt LEFT_CONTROL EQUAL  &mt RIGHT_ALT LEFT_BRACKET  &mt RIGHT_GUI RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &kp END  &none  &none  &none  &none  &none  &none  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
         num {
             display-name = "num";
             bindings = <
-&none  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_CLEAR  &kp BACKSPACE  &none  &none  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_SUBTRACT  &kp KP_MULTIPLY  &none  &none  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS  &kp KP_DIVIDE  &none  &kp LGUI  &mo 1  &trans  &kp KP_ENTER  &kp KP_N0  &kp KP_DOT
+&none  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp KP_CLEAR  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none  &none  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp KP_SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &none  &none  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3  &kp KP_PLUS  &none  &kp LGUI  &mo 1  &trans  &kp KP_ENTER  &kp KP_N0  &kp KP_DOT
             >;
         };
 
         mouse {
             display-name = "mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mkp LCLK  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans  &kp RIGHT_SHIFT  &kp LEFT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mkp LCLK  &mkp RCLK  &mkp MCLK
             >;
         };
 
