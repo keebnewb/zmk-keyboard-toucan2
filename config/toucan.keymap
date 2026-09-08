@@ -133,6 +133,12 @@
             key-positions = <34 33>;
             layers = <0>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <25 26>;
+            layers = <0>;
+        };
     };
 
     macros {
