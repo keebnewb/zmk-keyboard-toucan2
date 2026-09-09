@@ -175,21 +175,21 @@
         base {
             display-name = "base";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 ENTER  &kp SPACE  &mo 2  &kp RALT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMICOLON  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 LEFT_CONTROL  &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
         down {
             display-name = "down";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &SQL_IN_MACRO  &trans  &trans  &trans  &none  &none  &kp RS(MINUS)  &kp RS(EQUAL)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &none  &none  &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none  &kp LGUI  &trans  &kp ENTER  &kp SPACE  &trans  &kp RALT
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &SQL_IN_MACRO  &trans  &trans  &trans  &none  &none  &kp RS(MINUS)  &kp RS(EQUAL)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &none  &none  &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none  &kp LGUI  &trans  &trans  &kp SPACE  &trans  &kp RALT
             >;
         };
 
         up {
             display-name = "up";
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &none  &mt LEFT_SHIFT MINUS  &mt LEFT_CONTROL EQUAL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &kp END  &none  &none  &none  &none  &none  &none  &kp LGUI  &trans  &kp ENTER  &kp SPACE  &trans  &kp RALT
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &none  &mt LEFT_SHIFT MINUS  &mt LEFT_CONTROL EQUAL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &none  &none  &trans  &trans  &trans  &trans  &kp END  &none  &none  &none  &none  &none  &none  &kp LGUI  &trans  &trans  &kp SPACE  &trans  &kp RALT
             >;
         };
 
