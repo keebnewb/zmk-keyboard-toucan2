@@ -151,14 +151,14 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        hold_tap_length: hold_tap_length {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
+            label = "HOLD_TAP_LENGTH";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <150>;
         };
     };
