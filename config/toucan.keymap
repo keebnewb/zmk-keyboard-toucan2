@@ -139,6 +139,11 @@
             key-positions = <25 26>;
             layers = <0>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <33 34 32>;
+        };
     };
 
     macros {
