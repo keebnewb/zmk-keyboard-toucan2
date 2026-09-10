@@ -105,16 +105,10 @@
             layers = <1>;
         };
 
-        bootloader_lt {
+        bootloader {
             bindings = <&bootloader>;
-            key-positions = <15 16 14 13>;
+            key-positions = <16 13 19 22>;
             layers = <1>;
-        };
-
-        bootloader_rt {
-            bindings = <&bootloader>;
-            key-positions = <19 20 21 22>;
-            layers = <2>;
         };
 
         del {
