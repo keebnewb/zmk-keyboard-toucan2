@@ -170,7 +170,7 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
         };
