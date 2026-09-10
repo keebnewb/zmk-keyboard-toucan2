@@ -136,8 +136,8 @@
 
         back_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <15 16 13>;
-            layers = <0>;
+            key-positions = <16 15>;
+            layers = <3>;
         };
     };
 
