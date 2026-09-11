@@ -136,11 +136,18 @@
     };
 
     macros {
-        SQL_IN_MACRO: SQL_IN {
+        sql_in_macro: SQL_IN {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp EQUAL &kp DQT &kp SQT &kp DQT &kp AMPS &kp LEFT &kp AMPS &kp DQT &kp SQT &kp DQT &kp AMPS &kp DQT &kp COMMA &kp SPACE &kp DQT &kp ENTER>;
             label = "SQL_IN";
+        };
+
+        nolock_macro: nolock_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LPAR &kp N &kp O &kp L &kp O &kp C &kp K &kp RPAR>;
+            label = "NOLOCK_MACRO";
         };
     };
 
@@ -198,7 +205,7 @@
 
         macro {
             bindings = <
-&none  &trans  &trans  &trans  &trans  &trans  &SQL_IN_MACRO  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &trans  &trans  &trans  &trans  &trans  &sql_in_macro  &nolock_macro  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
