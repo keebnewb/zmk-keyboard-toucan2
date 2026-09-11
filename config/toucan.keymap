@@ -133,6 +133,12 @@
             bindings = <&kp ENTER>;
             key-positions = <20 22>;
         };
+
+        back_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <15 16>;
+            layers = <3>;
+        };
     };
 
     macros {
