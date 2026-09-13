@@ -158,6 +158,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "balanced";
         };
     };
 
@@ -167,7 +168,7 @@
         base {
             display-name = "base";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LSHIFT F  &kp G  &kp H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SQT  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 SPACE  &lt 5 SPACE  &mo 2  &kp RALT
+&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &hm_row_behavior LEFT_GUI A  &hm_row_behavior LEFT_ALT S  &hm_row_behavior LEFT_CONTROL D  &hm_row_behavior LSHIFT F  &kp G  &kp H  &hm_row_behavior LEFT_SHIFT J  &hm_row_behavior LEFT_CONTROL K  &hm_row_behavior LEFT_ALT L  &hm_row_behavior LEFT_GUI SQT  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none  &kp LGUI  &mo 1  &lt 3 SPACE  &lt 5 SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -181,7 +182,7 @@
         up {
             display-name = "up";
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp LG(UP_ARROW)  &mt LEFT_SHIFT MINUS  &mt LEFT_CONTROL EQUAL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &none  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &none  &kp LGUI  &trans  &trans  &kp SPACE  &trans  &kp RALT
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none  &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp LG(UP_ARROW)  &mt LEFT_SHIFT MINUS  &mt LEFT_CONTROL EQUAL  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &none  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &none  &kp LGUI  &trans  &trans  &kp SPACE  &kp LG(DOWN)  &kp RALT
             >;
         };
 
@@ -202,6 +203,14 @@
         macro {
             bindings = <
 &none  &trans  &trans  &trans  &trans  &trans  &sql_in_macro  &nolock_macro  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "macro";
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
