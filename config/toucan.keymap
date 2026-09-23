@@ -138,6 +138,12 @@
             key-positions = <17 13>;
             layers = <1>;
         };
+
+        left_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <13 15>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -196,7 +202,7 @@
         num_nav {
             display-name = "num/nav";
             bindings = <
-&none  &kp END  &kp PAGE_DOWN  &kp PG_UP  &kp HOME  &trans  &kp KP_CLEAR  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none  &none  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &kp KP_SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &none  &none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3  &kp KP_PLUS  &none  &kp LGUI  &mo 1  &trans  &kp KP_ENTER  &kp KP_N0  &kp KP_DOT
+&none  &kp END  &kp PAGE_DOWN  &kp PG_UP  &kp HOME  &kp LS(TAB)  &kp KP_CLEAR  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp BACKSPACE  &none  &none  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp TAB  &kp KP_SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &none  &none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3  &kp KP_PLUS  &none  &kp LGUI  &mo 1  &trans  &kp KP_ENTER  &kp KP_N0  &kp KP_DOT
             >;
         };
 
